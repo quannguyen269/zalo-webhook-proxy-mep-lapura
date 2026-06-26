@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // 🔥 DÁN LINK GOOGLE SCRIPT CỦA BẠN VÀO ĐÂY
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxAJ9S_3wxb04Beqb1zBT3zTq5ywBJeC1ThVgQVZ7M4xHCJeYXZNj1JroB0v2MG_jb-0Q/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzI2XlMPPK_gCHux3nr61xgewKkTWOKUy2_95goh-4EAqmsXv9kDas10RSrSJqw3BIR/exec";
 
 app.get("/", (req, res) => {
     res.send("Webhook is running!");
